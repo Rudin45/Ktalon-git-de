@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>8 - offsetSearch</name>
+   <tag></tag>
+   <elementGuidId>27d139aa-9b0f-45d9-8266-1476390d03c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[contains(@id,'react-select')])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1j7yp7a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1j7yp7a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cc-root&quot;)/div[@class=&quot;SignedIn__Page-u96ksb-0 cHodPZ&quot;]/div[@class=&quot;SignedIn__StyledPageContent-u96ksb-3 jnrPJW&quot;]/div[@class=&quot;SignedIn__Main-u96ksb-2 bAebqV&quot;]/div[@class=&quot;RoutesCluster___StyledDiv-sc-1v289cb-0 hfYIXi&quot;]/div[@class=&quot;RoutesCluster__ContentWrapper-sc-1v289cb-3 ModIA&quot;]/div[@class=&quot;SecondaryNavigation___StyledDiv4-sc-1iy976n-4 zClZY&quot;]/div[@class=&quot;SecondaryNavigation___StyledDiv5-sc-1iy976n-5 fpASZc&quot;]/div[@class=&quot;SubNavLayout__PageContent-gkwqg5-3 cboUHH&quot;]/div[@class=&quot;SubNavLayout__Wrapper-gkwqg5-0 fabSiE&quot;]/div[@class=&quot;SubNavLayout__LowerContent-gkwqg5-5 bxSim&quot;]/div[@class=&quot;SubNavLayout__GrayScaler-gkwqg5-6 gwKCRW&quot;]/div[3]/div[@class=&quot;MessageResults__ResultsWrapper-qos6y8-1 jlbBLT&quot;]/div[@class=&quot;MessageResults__Flexer-qos6y8-0 fpIikG&quot;]/div[1]/div[1]/div[@class=&quot;StyleGuide__Toolbar-lclu2k-5 ResourceIndex__IndexToolbar-sc-8psyfc-0 hmwsJO fsbyaA&quot;]/div[@class=&quot;StyleGuide__Toolbar-lclu2k-5 StyleGuide__ToolbarLeft-lclu2k-6 hmwsJO cTjagD&quot;]/div[@class=&quot;StyleGuide__ToolbarItem-lclu2k-7 bpFjcB&quot;]/div[@class=&quot;TopicInspect__SeekToSelectorWrapper-sc-103t289-0 kTbdff&quot;]/div[@class=&quot;SeekToSelector___StyledDiv-sc-1ce8jaj-0 huRJPn&quot;]/div[@class=&quot;Dropdown__DropdownWrapper-ifq0w3-0 gfibzN&quot;]/div[@class=&quot;css-2b097c-container&quot;]/div[@class=&quot;css-1byj0yk&quot;]/div[@class=&quot;DropdownOptions___StyledDiv5-sc-75j4ih-17 iyCcVZ&quot;]/div[@class=&quot;css-1j7yp7a&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

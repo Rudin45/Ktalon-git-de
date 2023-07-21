@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>1 - stgClusterLink</name>
+   <tag></tag>
+   <elementGuidId>7e3741b0-315a-439a-bd21-d29a0dc97fe7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@title = 'Staging' and (text() = 'Staging' or . = 'Staging')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.StyleGuide__LegacyH3-lclu2k-50.AccountCard__AccountName-sc-10b8jvk-1.irFfFW.boyLoy</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Dev</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>AccountNameCell</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>StyleGuide__LegacyH3-lclu2k-50 AccountCard__AccountName-sc-10b8jvk-1 irFfFW boyLoy</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dev</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cc-root&quot;)/div[@class=&quot;SignedIn__Page-u96ksb-0 cHodPZ&quot;]/div[@class=&quot;SignedIn__StyledPageContent-u96ksb-3 jnrPJW&quot;]/div[@class=&quot;SignedIn__Main-u96ksb-2 bAebqV&quot;]/div[@class=&quot;AccountsOverview__Wrapper-sc-3mszwa-0 eIedzz&quot;]/div[@class=&quot;AccountsOverview__ContentWrapper-sc-3mszwa-1 eernyL&quot;]/div[@class=&quot;AccountsOverview__Content-sc-3mszwa-2 jfyumv&quot;]/div[2]/div[@class=&quot;Grid__Grid-dQQfCc fZzFPI&quot;]/div[@class=&quot;Cell__Cell-jmSMrU fAwbTh&quot;]/a[@class=&quot;AccountCard___StyledLink-sc-10b8jvk-9 jVFCFw&quot;]/div[@class=&quot;Metric__BaseWrapper-sc-1usshae-1 AccountCard__CardWrapper-sc-10b8jvk-0 ferwBP hlHFsO&quot;]/div[@class=&quot;AccountCard__HeaderRow-sc-10b8jvk-7 jAWMTr&quot;]/h3[@class=&quot;StyleGuide__LegacyH3-lclu2k-50 AccountCard__AccountName-sc-10b8jvk-1 irFfFW boyLoy&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>descRecon</name>
+   <tag></tag>
+   <elementGuidId>b7ec0e20-442c-41b5-8436-b8004afca1e1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;cc-root&quot;]/div/div[7]/div/div/div/div/div[2]/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/div[2]/span/div/div[2]/div/div/div[1]/div/div/div/div[3]/div/div/div/div[6]/div[1]/div/div/div/div[5]/div[8]/pre/span/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

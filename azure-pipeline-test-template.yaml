@@ -1,0 +1,17 @@
+parameters:
+- name: testSuitePath
+  default: ''
+- name: testSuiteName
+  default: ''
+
+jobs:
+- job: 'katalon_${{ parameters.testSuiteName }}'
+  pool:
+    name: FintechKatalonAgents
+  steps:
+  - task: katalonTask@1
+    displayName: ${{ parameters.testSuiteName }}
+    inputs:
+      version: '8.1.0'
+      executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="${{ parameters.testSuitePath }}" -apiKey="0648fe38-0a99-4a40-b4d6-519411881bb8" -orgID="256180" --config -webui.autoUpdateDrivers=true'
+  continueOnError: true

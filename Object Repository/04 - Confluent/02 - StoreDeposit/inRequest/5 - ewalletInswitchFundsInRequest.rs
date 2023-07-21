@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>5 - ewalletInswitchFundsInRequest</name>
+   <tag></tag>
+   <elementGuidId>f90f923b-2b10-4eb5-a181-6b366e9b6bde</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'ewallet-inswitch-funds-in-request')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ReactVirtualized__Table__row.ReactVirtualized__Table__Row--active > div.ReactVirtualized__Table__rowColumn > span.TopicTable___StyledSpan-sc-103169t-6.hNAXWE > a.StyleGuide__TableHeaderLink-lclu2k-44.BigDataTable___StyledTableHeaderLink-sc-1xw8yx5-3.dEzmnS</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>ewallet-inswitch-funds-in-request</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>StyleGuide__TableHeaderLink-lclu2k-44 BigDataTable___StyledTableHeaderLink-sc-1xw8yx5-3 dEzmnS</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/environments/env-o5kqy/clusters/lkc-owq8j/topics/ewallet-inswitch-funds-in-request</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ewallet-inswitch-funds-in-request</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cc-root&quot;)/div[@class=&quot;SignedIn__Page-u96ksb-0 cHodPZ&quot;]/div[@class=&quot;SignedIn__StyledPageContent-u96ksb-3 jnrPJW&quot;]/div[@class=&quot;SignedIn__Main-u96ksb-2 bAebqV&quot;]/div[@class=&quot;RoutesCluster___StyledDiv-sc-1v289cb-0 hfYIXi&quot;]/div[@class=&quot;RoutesCluster__ContentWrapper-sc-1v289cb-3 ModIA&quot;]/div[@class=&quot;SecondaryNavigation___StyledDiv4-sc-1iy976n-4 zClZY&quot;]/div[@class=&quot;SecondaryNavigation___StyledDiv5-sc-1iy976n-5 fpASZc&quot;]/div[@class=&quot;SubNavLayout__PageContent-gkwqg5-3 cboUHH&quot;]/div[@class=&quot;SubNavLayout__Wrapper-gkwqg5-0 fabSiE&quot;]/div[@class=&quot;SubNavLayout__LowerContent-gkwqg5-5 bxSim&quot;]/div[@class=&quot;SubNavLayout__GrayScaler-gkwqg5-6 gwKCRW&quot;]/div[@class=&quot;ContentPanel-e6omeu-0 bKRWxE&quot;]/div[1]/div[1]/span[1]/div[@class=&quot;ReactVirtualizedWrapper-sc-47fwyu-0 BigDataTable__BigDataTableWrapper-sc-1xw8yx5-10 cOoXDT ieypMK&quot;]/div[@class=&quot;BigDataTable__BigDataTableInnerWrapper-sc-1xw8yx5-9 lftVvd&quot;]/div[@class=&quot;ReactVirtualized__Table BigDataTable__HeaderTable-sc-1xw8yx5-6 eFaktq header-table&quot;]/div[@class=&quot;ReactVirtualized__Grid ReactVirtualized__Table__Grid&quot;]/div[@class=&quot;ReactVirtualized__Grid__innerScrollContainer&quot;]/div[@class=&quot;ReactVirtualized__Table__row ReactVirtualized__Table__Row--active&quot;]/div[@class=&quot;ReactVirtualized__Table__rowColumn&quot;]/span[@class=&quot;TopicTable___StyledSpan-sc-103169t-6 hNAXWE&quot;]/a[@class=&quot;StyleGuide__TableHeaderLink-lclu2k-44 BigDataTable___StyledTableHeaderLink-sc-1xw8yx5-3 dEzmnS&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cc-root']/div/div[7]/div/div/div/div/div[2]/div/div/div/div/div[3]/div/div/span/div/div[2]/div/div[2]/div/div[4]/div/span/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'ewallet-inswitch-funds-in-request')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ewallet-arcus-fi-waiting-fulfill'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ewallet-arcus-fi-request'])[1]/following::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ewallet-inswitch-funds-in-response'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ewallet-inswitch-request'])[1]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ewallet-inswitch-funds-in-request']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/environments/env-o5kqy/clusters/lkc-owq8j/topics/ewallet-inswitch-funds-in-request')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/span/a</value>
+   </webElementXpaths>
+</WebElementEntity>

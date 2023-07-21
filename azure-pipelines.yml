@@ -1,0 +1,59 @@
+
+trigger:
+- main
+
+
+stages:
+- stage: WarmUp
+  displayName: WarmUp
+  jobs:  
+  - job: StartAgent
+    displayName: StartAgent
+    pool:
+      vmImage: 'windows-2019'
+    steps:
+    - checkout: none
+    - task: AzurePowerShell@5
+      displayName: Starting Agent
+      inputs:
+        azureSubscription: 'DevOps SPN - Prod Connection'
+        ScriptType: 'InlineScript'
+        Inline: |
+          Start-AzVm -Name vm-prd-fintech-katalon-agent -ResourceGroupName rg-prd-fintech-devops
+        azurePowerShellVersion: 'LatestVersion'
+
+- stage: Test
+  displayName: Test
+  jobs: 
+  - template: azure-pipeline-test-template.yaml 
+    parameters:
+      testSuiteName: '01_eWallet_CashIn_StoreDeposit'
+      testSuitePath: 'Test Suites/01 - Test Suites/01 - E2E/01 - Store Deposit/01 - eWallet - Cash In - Store Deposit'
+
+  - template: azure-pipeline-test-template.yaml 
+    parameters:
+      testSuiteName: '02ConfluentVerifyRequest'
+      testSuitePath: 'Test Suites/01 - Test Suites/01 - E2E/01 - Store Deposit/02 - Confluent - Verify Request'
+
+  - template: azure-pipeline-test-template.yaml 
+    parameters:
+      testSuiteName: '03nSwitchApproveTransaction'
+      testSuitePath: 'Test Suites/01 - Test Suites/01 - E2E/01 - Store Deposit/03 - inSwitch - Approve Transaction'
+
+- stage: CoolDown
+  displayName: CoolDown
+  jobs:  
+  - job: StopAgent
+    displayName: StopAgent
+    pool:
+      vmImage: 'windows-2019'
+    steps:
+    - checkout: none
+    - task: AzurePowerShell@5
+      displayName: Stoping Agent
+      inputs:
+        azureSubscription: 'DevOps SPN - Prod Connection'
+        ScriptType: 'InlineScript'
+        Inline: |
+          Stop-AzVm -Name vm-prd-fintech-katalon-agent -ResourceGroupName rg-prd-fintech-devops -confirm:$false -Force
+        azurePowerShellVersion: 'LatestVersion'

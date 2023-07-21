@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>7 - messagesLink</name>
+   <tag></tag>
+   <elementGuidId>0799e9a5-5745-42fb-a544-df02b90a32a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Messages')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/environments/env-o5kqy/clusters/lkc-owq8j/topics/ewallet-inswitch-funds-in-request/message-viewer</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Messages</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cc-root&quot;)/div[@class=&quot;SignedIn__Page-u96ksb-0 cHodPZ&quot;]/div[@class=&quot;SignedIn__StyledPageContent-u96ksb-3 jnrPJW&quot;]/div[@class=&quot;SignedIn__Main-u96ksb-2 bAebqV&quot;]/div[@class=&quot;RoutesCluster___StyledDiv-sc-1v289cb-0 hfYIXi&quot;]/div[@class=&quot;RoutesCluster__ContentWrapper-sc-1v289cb-3 ModIA&quot;]/div[@class=&quot;SecondaryNavigation___StyledDiv4-sc-1iy976n-4 zClZY&quot;]/div[@class=&quot;SecondaryNavigation___StyledDiv5-sc-1iy976n-5 fpASZc&quot;]/div[@class=&quot;SubNavLayout__PageContent-gkwqg5-3 cboUHH&quot;]/div[@class=&quot;SubNavLayout__Wrapper-gkwqg5-0 fabSiE&quot;]/div[@class=&quot;SubNavLayout__LowerContent-gkwqg5-5 bxSim&quot;]/div[@class=&quot;SubNavLayout__GrayScaler-gkwqg5-6 gwKCRW&quot;]/div[@class=&quot;StyleGuide__Sticky-lclu2k-16 eBxftB&quot;]/div[@class=&quot;StyleGuide__StickyInner-lclu2k-19 lecDxC&quot;]/div[@class=&quot;SubNavigation__Wrapper-sc-1vjdihy-0 amBZP&quot;]/nav[1]/a[2]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cc-root']/div/div[7]/div/div/div/div/div[2]/div/div/div/div/div[2]/div/div/nav/a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Messages')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overview'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ewallet-inswitch-funds-in-request'])[1]/following::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Schema'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configuration'])[1]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Messages']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/environments/env-o5kqy/clusters/lkc-owq8j/topics/ewallet-inswitch-funds-in-request/message-viewer')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/nav/a[2]</value>
+   </webElementXpaths>
+</WebElementEntity>
