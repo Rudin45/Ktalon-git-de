@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/02 - Admin Portal/01 - Login/01 - Login Fails","testCaseId":"Test Cases/02 - Admin Portal/01 - Login/01 - Login Fails","iterationVariableName":""}
+{"testCaseName":"Test Cases/02 - Admin Portal/01 - Login/02 - Login MFA","testCaseId":"Test Cases/02 - Admin Portal/01 - Login/02 - Login MFA","iterationVariableName":""}
+{"testCaseName":"Test Cases/02 - Admin Portal/02 - Header/01 - Cosmetic Verification Header","testCaseId":"Test Cases/02 - Admin Portal/02 - Header/01 - Cosmetic Verification Header","iterationVariableName":""}
+{"testCaseName":"Test Cases/02 - Admin Portal/02 - Header/02 - Export Client Transactions","testCaseId":"Test Cases/02 - Admin Portal/02 - Header/02 - Export Client Transactions","iterationVariableName":""}
+{"testCaseName":"Test Cases/02 - Admin Portal/02 - Header/03 - Search one Client","testCaseId":"Test Cases/02 - Admin Portal/02 - Header/03 - Search one Client","iterationVariableName":""}
+{"testCaseName":"Test Cases/02 - Admin Portal/02 - Header/04 - Search and Clear Filter","testCaseId":"Test Cases/02 - Admin Portal/02 - Header/04 - Search and Clear Filter","iterationVariableName":""}

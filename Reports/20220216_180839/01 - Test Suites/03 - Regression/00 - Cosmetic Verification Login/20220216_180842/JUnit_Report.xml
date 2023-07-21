@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="00 - Cosmetic Verification Login" time="153.889" tests="2" failures="0" errors="0">
+   <testsuite name="00 - Cosmetic Verification Login" tests="2" failures="0" errors="0" time="153.889" skipped="0" timestamp="2022-02-16 18:09:12" hostname="isaac - DESKTOP-BPONDF2" id="Test Suites/01 - Test Suites/03 - Regression/00 - Cosmetic Verification Login">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\isaac\\git\\fintech-ewallet-katalonstudio\\Reports\\20220216_180839\\01 - Test Suites\\03 - Regression\\00 - Cosmetic Verification Login\\20220216_180842"/>
+         <property name="logFiles" value="C:\\Users\\isaac\\git\\fintech-ewallet-katalonstudio\\Reports\\20220216_180839\\01 - Test Suites\\03 - Regression\\00 - Cosmetic Verification Login\\20220216_180842\\appium.log, C:\\Users\\isaac\\git\\fintech-ewallet-katalonstudio\\Reports\\20220216_180839\\01 - Test Suites\\03 - Regression\\00 - Cosmetic Verification Login\\20220216_180842\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="isaac - DESKTOP-BPONDF2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.2&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.2"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.68.113"/>
+         <property name="deviceManufacturer" value="unknown"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/01 - eWallet/01 - Welcome/Cosmetic Verification - First Time" time="76.36" classname="Test Cases/01 - eWallet/01 - Welcome/Cosmetic Verification - First Time" status="PASSED">
+         <system-out><![CDATA[2022-02-16 18:09:13 - [TEST_CASE][PASSED] - Test Cases/01 - eWallet/01 - Welcome/Cosmetic Verification - First Time: Test Cases/01 - eWallet/01 - Welcome/Cosmetic Verification - First Time
+
+2022-02-16 18:09:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application' successfully
+
+2022-02-16 18:09:15 - [TEST_CASE][PASSED] - Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application: Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application
+
+2022-02-16 18:09:16 - [TEST_STEP][PASSED] - comment("Start Application in the Mobile"): Start Application in the Mobile
+
+2022-02-16 18:09:16 - [MESSAGE][INFO] - Start Application in the Mobile
+
+2022-02-16 18:09:16 - [TEST_STEP][PASSED] - startApplication(eWalletApk, true): Started app at: 'C:\Users\isaac\Desktop\Clientes\Actuales\Everis\AbInbev\app-stagingMx-universal-release.apk'
+
+2022-02-16 18:09:19 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-02-16 18:09:19 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-02-16 18:09:23 - [MESSAGE][INFO] - Appium server started on port 57.124
+
+2022-02-16 18:10:14 - [MESSAGE][PASSED] - Started app at: 'C:\Users\isaac\Desktop\Clientes\Actuales\Everis\AbInbev\app-stagingMx-universal-release.apk'
+
+2022-02-16 18:10:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application' successfully
+
+2022-02-16 18:10:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/01 - Welcome/00 - Logo Welcome"), 10): Element 'Object Repository/01 - eWallet/01 - Welcome/00 - Logo Welcome' is visible
+
+2022-02-16 18:10:17 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/01 - Welcome/00 - Logo Welcome' is visible
+
+2022-02-16 18:10:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("01 - eWallet/01 - Welcome/01 - walletLabel"), "Las finanzas de tu negocio bajo tu control"): Actual text and expected text of test object 'Object Repository/01 - eWallet/01 - Welcome/01 - walletLabel' are matched.
+
+2022-02-16 18:10:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/01 - eWallet/01 - Welcome/01 - walletLabel' are matched.
+
+2022-02-16 18:10:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/01 - Welcome/02 - imagenMujer"), 10): Element 'Object Repository/01 - eWallet/01 - Welcome/02 - imagenMujer' is visible
+
+2022-02-16 18:10:18 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/01 - Welcome/02 - imagenMujer' is visible
+
+2022-02-16 18:10:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/01 - Welcome/03 - dotOne"), 10): Element 'Object Repository/01 - eWallet/01 - Welcome/03 - dotOne' is visible
+
+2022-02-16 18:10:18 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/01 - Welcome/03 - dotOne' is visible
+
+2022-02-16 18:10:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/01 - Welcome/04 - dotTwo"), 10): Element 'Object Repository/01 - eWallet/01 - Welcome/04 - dotTwo' is visible
+
+2022-02-16 18:10:19 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/01 - Welcome/04 - dotTwo' is visible
+
+2022-02-16 18:10:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/01 - Welcome/05 - dotThree"), 10): Element 'Object Repository/01 - eWallet/01 - Welcome/05 - dotThree' is visible
+
+2022-02-16 18:10:20 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/01 - Welcome/05 - dotThree' is visible
+
+2022-02-16 18:10:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("01 - eWallet/01 - Welcome/06 - crearCuenta"), "Crear cuenta nueva"): Actual text and expected text of test object 'Object Repository/01 - eWallet/01 - Welcome/06 - crearCuenta' are matched.
+
+2022-02-16 18:10:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/01 - eWallet/01 - Welcome/06 - crearCuenta' are matched.
+
+2022-02-16 18:10:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("01 - eWallet/01 - Welcome/07 - Ya tengo cuenta Link"), "Ya tengo cuenta"): Actual text and expected text of test object 'Object Repository/01 - eWallet/01 - Welcome/07 - Ya tengo cuenta Link' are matched.
+
+2022-02-16 18:10:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/01 - eWallet/01 - Welcome/07 - Ya tengo cuenta Link' are matched.
+
+2022-02-16 18:10:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/01 - Welcome/08 - leftArrow"), 10): Element 'Object Repository/01 - eWallet/01 - Welcome/08 - leftArrow' is visible
+
+2022-02-16 18:10:21 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/01 - Welcome/08 - leftArrow' is visible
+
+2022-02-16 18:10:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/01 - Welcome/09 - rightArrow"), 10): Element 'Object Repository/01 - eWallet/01 - Welcome/09 - rightArrow' is visible
+
+2022-02-16 18:10:21 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/01 - Welcome/09 - rightArrow' is visible
+
+2022-02-16 18:10:21 - [TEST_STEP][PASSED] - tap(findTestObject("01 - eWallet/01 - Welcome/09 - rightArrow"), 10): Tapped on element 'Object Repository/01 - eWallet/01 - Welcome/09 - rightArrow'
+
+2022-02-16 18:10:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/01 - eWallet/01 - Welcome/09 - rightArrow'
+
+2022-02-16 18:10:22 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2022-02-16 18:10:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-16 18:10:24 - [TEST_STEP][PASSED] - tap(findTestObject("01 - eWallet/01 - Welcome/09 - rightArrow"), 10): Tapped on element 'Object Repository/01 - eWallet/01 - Welcome/09 - rightArrow'
+
+2022-02-16 18:10:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/01 - eWallet/01 - Welcome/09 - rightArrow'
+
+2022-02-16 18:10:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/01 - Welcome/10 - segundaImagen"), 10): Element 'Object Repository/01 - eWallet/01 - Welcome/10 - segundaImagen' is visible
+
+2022-02-16 18:10:26 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/01 - Welcome/10 - segundaImagen' is visible
+
+2022-02-16 18:10:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("01 - eWallet/01 - Welcome/11 - segundaLeyenda"), "Recargas telefónicas y pago de servicios disponibles para ti y tus clientes"): Actual text and expected text of test object 'Object Repository/01 - eWallet/01 - Welcome/11 - segundaLeyenda' are matched.
+
+2022-02-16 18:10:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/01 - eWallet/01 - Welcome/11 - segundaLeyenda' are matched.
+
+2022-02-16 18:10:26 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-02-16 18:10:29 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 - eWallet/02 - Login/1 - Cosmetic Verification - Second Time" time="76.447" classname="Test Cases/01 - eWallet/02 - Login/1 - Cosmetic Verification - Second Time" status="PASSED">
+         <system-out><![CDATA[2022-02-16 18:10:29 - [TEST_CASE][PASSED] - Test Cases/01 - eWallet/02 - Login/1 - Cosmetic Verification - Second Time: Test Cases/01 - eWallet/02 - Login/1 - Cosmetic Verification - Second Time
+
+2022-02-16 18:10:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application' successfully
+
+2022-02-16 18:10:31 - [TEST_CASE][PASSED] - Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application: Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application
+
+2022-02-16 18:10:31 - [TEST_STEP][PASSED] - comment("Start Application in the Mobile"): Start Application in the Mobile
+
+2022-02-16 18:10:31 - [MESSAGE][INFO] - Start Application in the Mobile
+
+2022-02-16 18:10:31 - [TEST_STEP][PASSED] - startApplication(eWalletApk, true): Started app at: 'C:\Users\isaac\Desktop\Clientes\Actuales\Everis\AbInbev\app-stagingMx-universal-release.apk'
+
+2022-02-16 18:10:31 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-02-16 18:10:31 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-02-16 18:10:35 - [MESSAGE][INFO] - Appium server started on port 57.348
+
+2022-02-16 18:11:32 - [MESSAGE][PASSED] - Started app at: 'C:\Users\isaac\Desktop\Clientes\Actuales\Everis\AbInbev\app-stagingMx-universal-release.apk'
+
+2022-02-16 18:11:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application' successfully
+
+2022-02-16 18:11:32 - [TEST_STEP][PASSED] - tap(findTestObject("01 - eWallet/01 - Welcome/07 - Ya tengo cuenta Link"), 10): Tapped on element 'Object Repository/01 - eWallet/01 - Welcome/07 - Ya tengo cuenta Link'
+
+2022-02-16 18:11:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/01 - eWallet/01 - Welcome/07 - Ya tengo cuenta Link'
+
+2022-02-16 18:11:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/02 - Login/00 - Logo SiHay"), 10): Element 'Object Repository/01 - eWallet/02 - Login/00 - Logo SiHay' is visible
+
+2022-02-16 18:11:38 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/02 - Login/00 - Logo SiHay' is visible
+
+2022-02-16 18:11:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("01 - eWallet/02 - Login/01 - Hola"), "¡Hola!", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/01 - eWallet/02 - Login/01 - Hola' are matched.
+
+2022-02-16 18:11:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/01 - eWallet/02 - Login/01 - Hola' are matched.
+
+2022-02-16 18:11:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("01 - eWallet/02 - Login/02 - Que gusto"), "Qué gusto verte de nuevo", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/01 - eWallet/02 - Login/02 - Que gusto' are matched.
+
+2022-02-16 18:11:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/01 - eWallet/02 - Login/02 - Que gusto' are matched.
+
+2022-02-16 18:11:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("01 - eWallet/02 - Login/03 - Numero celular"), "Número celular a 10  dígitos", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/01 - eWallet/02 - Login/03 - Numero celular' are matched.
+
+2022-02-16 18:11:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/01 - eWallet/02 - Login/03 - Numero celular' are matched.
+
+2022-02-16 18:11:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("01 - eWallet/02 - Login/04 - Password"), "Contraseña", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/01 - eWallet/02 - Login/04 - Password' are matched.
+
+2022-02-16 18:11:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/01 - eWallet/02 - Login/04 - Password' are matched.
+
+2022-02-16 18:11:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("01 - eWallet/02 - Login/06 - Ingresar Button"), "Ingresar", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/01 - eWallet/02 - Login/06 - Ingresar Button' are matched.
+
+2022-02-16 18:11:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/01 - eWallet/02 - Login/06 - Ingresar Button' are matched.
+
+2022-02-16 18:11:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("01 - eWallet/02 - Login/05 - Olvidaste Password"), "¿Olvidaste tu contraseña?", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/01 - eWallet/02 - Login/05 - Olvidaste Password' are matched.
+
+2022-02-16 18:11:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/01 - eWallet/02 - Login/05 - Olvidaste Password' are matched.
+
+2022-02-16 18:11:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("01 - eWallet/02 - Login/07 - Crear Cuenta nueva Link"), "Crear cuenta nueva", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/01 - eWallet/02 - Login/07 - Crear Cuenta nueva Link' are matched.
+
+2022-02-16 18:11:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/01 - eWallet/02 - Login/07 - Crear Cuenta nueva Link' are matched.
+
+2022-02-16 18:11:42 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-02-16 18:11:46 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-16 18:09:12 - [TEST_SUITE][PASSED] - 00 - Cosmetic Verification Login: Test Cases/01 - eWallet/02 - Login/1 - Cosmetic Verification - Second Time]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

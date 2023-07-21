@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="01 - Login and Logout" time="114.563" tests="2" failures="0" errors="0">
+   <testsuite name="01 - Login and Logout" tests="2" failures="0" errors="0" time="114.563" skipped="0" timestamp="2022-02-15 17:25:36" hostname="isaac - DESKTOP-BPONDF2" id="Test Suites/01 - Test Suites/03 - Regression/01 - Login and Logout">
+      <properties>
+         <property name="deviceName" value="samsung SM-G998B (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\isaac\\git\\fintech-ewallet-katalonstudio\\Reports\\20220215_172333\\01 - Test Suites\\03 - Regression\\01 - Login and Logout\\20220215_172337"/>
+         <property name="logFiles" value="C:\\Users\\isaac\\git\\fintech-ewallet-katalonstudio\\Reports\\20220215_172333\\01 - Test Suites\\03 - Regression\\01 - Login and Logout\\20220215_172337\\appium.log, C:\\Users\\isaac\\git\\fintech-ewallet-katalonstudio\\Reports\\20220215_172333\\01 - Test Suites\\03 - Regression\\01 - Login and Logout\\20220215_172337\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="isaac - DESKTOP-BPONDF2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.21.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.21.0"/>
+         <property name="deviceModel" value="SM-G998B"/>
+         <property name="hostAddress" value="192.168.68.112"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R5CR12G69LZ"/>
+         <property name="deviceName" value="samsung SM-G998B (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/01 - eWallet/02 - Login/2 - Login Successfully - First Time" time="64.037" classname="Test Cases/01 - eWallet/02 - Login/2 - Login Successfully - First Time" status="PASSED">
+         <system-out><![CDATA[2022-02-15 17:25:37 - [TEST_CASE][PASSED] - Test Cases/01 - eWallet/02 - Login/2 - Login Successfully - First Time: Test Cases/01 - eWallet/02 - Login/2 - Login Successfully - First Time
+
+2022-02-15 17:25:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application' successfully
+
+2022-02-15 17:25:39 - [TEST_CASE][PASSED] - Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application: Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application
+
+2022-02-15 17:25:40 - [TEST_STEP][PASSED] - comment("Start Application in the Mobile"): Start Application in the Mobile
+
+2022-02-15 17:25:40 - [MESSAGE][INFO] - Start Application in the Mobile
+
+2022-02-15 17:25:40 - [TEST_STEP][PASSED] - startApplication(eWalletApk, false): Started app at: 'C:\Users\isaac\Desktop\Clientes\Actuales\Everis\AbInbev\app-stagingMx-universal-release.apk'
+
+2022-02-15 17:25:46 - [MESSAGE][INFO] - Appium server started on port 62.742
+
+2022-02-15 17:26:08 - [MESSAGE][PASSED] - Started app at: 'C:\Users\isaac\Desktop\Clientes\Actuales\Everis\AbInbev\app-stagingMx-universal-release.apk'
+
+2022-02-15 17:26:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application' successfully
+
+2022-02-15 17:26:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("01 - eWallet/01 - Welcome/07 - Ya tengo cuenta Link"), 30): Element 'Object Repository/01 - eWallet/01 - Welcome/07 - Ya tengo cuenta Link' is present
+
+2022-02-15 17:26:09 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/01 - Welcome/07 - Ya tengo cuenta Link' is present
+
+2022-02-15 17:26:09 - [TEST_STEP][PASSED] - tap(findTestObject("01 - eWallet/01 - Welcome/07 - Ya tengo cuenta Link"), 10): Tapped on element 'Object Repository/01 - eWallet/01 - Welcome/07 - Ya tengo cuenta Link'
+
+2022-02-15 17:26:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/01 - eWallet/01 - Welcome/07 - Ya tengo cuenta Link'
+
+2022-02-15 17:26:10 - [TEST_STEP][PASSED] - setText(findTestObject("01 - eWallet/02 - Login/03 - Numero celular"), phoneNumber, 10): Text '5591899694' has been set to element 'Object Repository/01 - eWallet/02 - Login/03 - Numero celular'
+
+2022-02-15 17:26:12 - [MESSAGE][PASSED] - Text '5591899694' has been set to element 'Object Repository/01 - eWallet/02 - Login/03 - Numero celular'
+
+2022-02-15 17:26:12 - [TEST_STEP][PASSED] - setText(findTestObject("01 - eWallet/02 - Login/04 - Password"), password, 10): Text 'DulceStg30$$' has been set to element 'Object Repository/01 - eWallet/02 - Login/04 - Password'
+
+2022-02-15 17:26:14 - [MESSAGE][PASSED] - Text 'DulceStg30$$' has been set to element 'Object Repository/01 - eWallet/02 - Login/04 - Password'
+
+2022-02-15 17:26:14 - [TEST_STEP][PASSED] - tap(findTestObject("01 - eWallet/02 - Login/06 - Ingresar Button"), 10): Tapped on element 'Object Repository/01 - eWallet/02 - Login/06 - Ingresar Button'
+
+2022-02-15 17:26:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/01 - eWallet/02 - Login/06 - Ingresar Button'
+
+2022-02-15 17:26:15 - [TEST_STEP][PASSED] - tap(findTestObject("01 - eWallet/02 - Login/08 - En Otro momento"), 10): Tapped on element 'Object Repository/01 - eWallet/02 - Login/08 - En Otro momento'
+
+2022-02-15 17:26:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/01 - eWallet/02 - Login/08 - En Otro momento'
+
+2022-02-15 17:26:16 - [TEST_STEP][PASSED] - delay(10, CONTINUE_ON_FAILURE): Delayed 10 second(s)
+
+2022-02-15 17:26:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-15 17:26:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/03 - Home/03 - Bottom Menu/5 - perfil"), 10): Element 'Object Repository/01 - eWallet/03 - Home/03 - Bottom Menu/5 - perfil' is visible
+
+2022-02-15 17:26:36 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/03 - Home/03 - Bottom Menu/5 - perfil' is visible
+
+2022-02-15 17:26:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("01 - eWallet/0 - Common Steps/03 - Logout/Logout"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/01 - eWallet/0 - Common Steps/03 - Logout/Logout' successfully
+
+2022-02-15 17:26:36 - [TEST_CASE][PASSED] - Test Cases/01 - eWallet/0 - Common Steps/03 - Logout/Logout: Test Cases/01 - eWallet/0 - Common Steps/03 - Logout/Logout
+
+2022-02-15 17:26:37 - [TEST_STEP][PASSED] - tap(findTestObject("01 - eWallet/03 - Home/03 - Bottom Menu/55 Perfil"), 10): Tapped on element 'Object Repository/01 - eWallet/03 - Home/03 - Bottom Menu/55 Perfil'
+
+2022-02-15 17:26:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/01 - eWallet/03 - Home/03 - Bottom Menu/55 Perfil'
+
+2022-02-15 17:26:37 - [TEST_STEP][PASSED] - tap(findTestObject("01 - eWallet/03 - Home/cerrarSesion"), 10): Tapped on element 'Object Repository/01 - eWallet/03 - Home/cerrarSesion'
+
+2022-02-15 17:26:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/01 - eWallet/03 - Home/cerrarSesion'
+
+2022-02-15 17:26:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/03 - Home/salir"), 10): Element 'Object Repository/01 - eWallet/03 - Home/salir' is visible
+
+2022-02-15 17:26:40 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/03 - Home/salir' is visible
+
+2022-02-15 17:26:40 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-02-15 17:26:41 - [MESSAGE][PASSED] - Close app successfully
+
+2022-02-15 17:26:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/01 - eWallet/0 - Common Steps/03 - Logout/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 - eWallet/02 - Login/4 - Login and Logout Successfully" time="49.82" classname="Test Cases/01 - eWallet/02 - Login/4 - Login and Logout Successfully" status="PASSED">
+         <system-out><![CDATA[2022-02-15 17:26:41 - [TEST_CASE][PASSED] - Test Cases/01 - eWallet/02 - Login/4 - Login and Logout Successfully: Test Cases/01 - eWallet/02 - Login/4 - Login and Logout Successfully
+
+2022-02-15 17:26:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application' successfully
+
+2022-02-15 17:26:42 - [TEST_CASE][PASSED] - Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application: Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application
+
+2022-02-15 17:26:42 - [TEST_STEP][PASSED] - comment("Start Application in the Mobile"): Start Application in the Mobile
+
+2022-02-15 17:26:42 - [MESSAGE][INFO] - Start Application in the Mobile
+
+2022-02-15 17:26:42 - [TEST_STEP][PASSED] - startApplication(eWalletApk, false): Started app at: 'C:\Users\isaac\Desktop\Clientes\Actuales\Everis\AbInbev\app-stagingMx-universal-release.apk'
+
+2022-02-15 17:26:45 - [MESSAGE][INFO] - Appium server started on port 51.090
+
+2022-02-15 17:27:06 - [MESSAGE][PASSED] - Started app at: 'C:\Users\isaac\Desktop\Clientes\Actuales\Everis\AbInbev\app-stagingMx-universal-release.apk'
+
+2022-02-15 17:27:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application' successfully
+
+2022-02-15 17:27:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("01 - eWallet/0 - Common Steps/02 - Login/Login"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/01 - eWallet/0 - Common Steps/02 - Login/Login' successfully
+
+2022-02-15 17:27:06 - [TEST_CASE][PASSED] - Test Cases/01 - eWallet/0 - Common Steps/02 - Login/Login: Test Cases/01 - eWallet/0 - Common Steps/02 - Login/Login
+
+2022-02-15 17:27:07 - [TEST_STEP][PASSED] - setText(findTestObject("01 - eWallet/02 - Login/04 - Password"), password, 10): Text 'DulceStg30$$' has been set to element 'Object Repository/01 - eWallet/02 - Login/04 - Password'
+
+2022-02-15 17:27:09 - [MESSAGE][PASSED] - Text 'DulceStg30$$' has been set to element 'Object Repository/01 - eWallet/02 - Login/04 - Password'
+
+2022-02-15 17:27:09 - [TEST_STEP][PASSED] - tap(findTestObject("01 - eWallet/02 - Login/06 - Ingresar Button"), 10): Tapped on element 'Object Repository/01 - eWallet/02 - Login/06 - Ingresar Button'
+
+2022-02-15 17:27:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/01 - eWallet/02 - Login/06 - Ingresar Button'
+
+2022-02-15 17:27:10 - [TEST_STEP][PASSED] - tap(findTestObject("01 - eWallet/02 - Login/08 - En Otro momento"), 10): Tapped on element 'Object Repository/01 - eWallet/02 - Login/08 - En Otro momento'
+
+2022-02-15 17:27:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/01 - eWallet/02 - Login/08 - En Otro momento'
+
+2022-02-15 17:27:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/03 - Home/03 - Bottom Menu/5 - perfil"), 10): Element 'Object Repository/01 - eWallet/03 - Home/03 - Bottom Menu/5 - perfil' is visible
+
+2022-02-15 17:27:21 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/03 - Home/03 - Bottom Menu/5 - perfil' is visible
+
+2022-02-15 17:27:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/01 - eWallet/0 - Common Steps/02 - Login/Login' successfully
+
+2022-02-15 17:27:21 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2022-02-15 17:27:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-15 17:27:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("01 - eWallet/0 - Common Steps/03 - Logout/Logout"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/01 - eWallet/0 - Common Steps/03 - Logout/Logout' successfully
+
+2022-02-15 17:27:26 - [TEST_CASE][PASSED] - Test Cases/01 - eWallet/0 - Common Steps/03 - Logout/Logout: Test Cases/01 - eWallet/0 - Common Steps/03 - Logout/Logout
+
+2022-02-15 17:27:26 - [TEST_STEP][PASSED] - tap(findTestObject("01 - eWallet/03 - Home/03 - Bottom Menu/55 Perfil"), 10): Tapped on element 'Object Repository/01 - eWallet/03 - Home/03 - Bottom Menu/55 Perfil'
+
+2022-02-15 17:27:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/01 - eWallet/03 - Home/03 - Bottom Menu/55 Perfil'
+
+2022-02-15 17:27:27 - [TEST_STEP][PASSED] - tap(findTestObject("01 - eWallet/03 - Home/cerrarSesion"), 10): Tapped on element 'Object Repository/01 - eWallet/03 - Home/cerrarSesion'
+
+2022-02-15 17:27:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/01 - eWallet/03 - Home/cerrarSesion'
+
+2022-02-15 17:27:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/03 - Home/salir"), 10): Element 'Object Repository/01 - eWallet/03 - Home/salir' is visible
+
+2022-02-15 17:27:30 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/03 - Home/salir' is visible
+
+2022-02-15 17:27:30 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-02-15 17:27:31 - [MESSAGE][PASSED] - Close app successfully
+
+2022-02-15 17:27:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/01 - eWallet/0 - Common Steps/03 - Logout/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-15 17:25:36 - [TEST_SUITE][PASSED] - 01 - Login and Logout: Test Cases/01 - eWallet/02 - Login/4 - Login and Logout Successfully]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

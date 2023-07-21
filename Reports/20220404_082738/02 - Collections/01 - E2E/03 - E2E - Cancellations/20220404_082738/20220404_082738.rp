@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20220404_082738</name>
+   <tag></tag>
+   <displayName>20220404_082738</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220404_082738/01 - Test Suites/01 - E2E/02 - mPOS Fund Wallet/01 - eWallet - Cash In - mPOS Fund Wallet/20220404_082740</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>samsung SM-G998B (Android 12)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>R5CR12G69LZ</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220404_082738/01 - Test Suites/01 - E2E/03 - Cancellations/01 - Cancel a Transaction/20220404_082743</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>samsung SM-G998B (Android 12)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>R5CR12G69LZ</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220404_082738/01 - Test Suites/01 - E2E/03 - Cancellations/02 - Verify cancellation data in Confluent Kafka/20220404_082745</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220404_082738/01 - Test Suites/01 - E2E/03 - Cancellations/03 - Verify cancellation data in Admin Portal/20220404_082747</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/02 - Collections/01 - E2E/03 - E2E - Cancellations</testSuiteCollectionId>
+</ReportCollectionEntity>

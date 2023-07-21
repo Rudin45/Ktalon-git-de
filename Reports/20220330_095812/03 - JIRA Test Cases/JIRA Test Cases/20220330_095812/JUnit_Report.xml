@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="JIRA Test Cases" time="69.035" tests="1" failures="0" errors="0">
+   <testsuite name="JIRA Test Cases" tests="1" failures="0" errors="0" time="69.035" skipped="0" timestamp="2022-03-30 09:58:27" hostname="isaac - DESKTOP-BPONDF2" id="Test Suites/03 - JIRA Test Cases/JIRA Test Cases">
+      <properties>
+         <property name="deviceName" value="samsung SM-G998B (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\isaac\\git\\fintech-ewallet-katalonstudio\\Reports\\20220330_095812\\03 - JIRA Test Cases\\JIRA Test Cases\\20220330_095812"/>
+         <property name="logFiles" value="C:\\Users\\isaac\\git\\fintech-ewallet-katalonstudio\\Reports\\20220330_095812\\03 - JIRA Test Cases\\JIRA Test Cases\\20220330_095812\\appium.log, C:\\Users\\isaac\\git\\fintech-ewallet-katalonstudio\\Reports\\20220330_095812\\03 - JIRA Test Cases\\JIRA Test Cases\\20220330_095812\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="isaac - DESKTOP-BPONDF2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.2&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.2"/>
+         <property name="deviceModel" value="SM-G998B"/>
+         <property name="hostAddress" value="192.168.68.123"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R5CR12G69LZ"/>
+         <property name="deviceName" value="samsung SM-G998B (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/JIRA Test Cases/FEW-1571 1.01 - Welcome - Verify that Look and Feel follows UX design - Screen 1" time="68.083" classname="Test Cases/JIRA Test Cases/FEW-1571 1.01 - Welcome - Verify that Look and Feel follows UX design - Screen 1" status="PASSED">
+         <system-out><![CDATA[2022-03-30 09:58:28 - [TEST_CASE][PASSED] - Test Cases/JIRA Test Cases/FEW-1571 1.01 - Welcome - Verify that Look and Feel follows UX design - Screen 1: Test Cases/JIRA Test Cases/FEW-1571 1.01 - Welcome - Verify that Look and Feel follows UX design - Screen 1
+
+2022-03-30 09:58:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application' successfully
+
+2022-03-30 09:58:30 - [TEST_CASE][PASSED] - Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application: Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application
+
+2022-03-30 09:58:31 - [TEST_STEP][PASSED] - comment("Start Application in the Mobile"): Start Application in the Mobile
+
+2022-03-30 09:58:31 - [MESSAGE][INFO] - Start Application in the Mobile
+
+2022-03-30 09:58:31 - [TEST_STEP][PASSED] - startApplication(eWalletApk, true): Started app at: 'C:\Users\isaac\Desktop\Clientes\Actuales\Everis\AbInbev\app-stagingMx-universal-release.apk'
+
+2022-03-30 09:58:35 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-03-30 09:58:35 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-03-30 09:58:40 - [MESSAGE][INFO] - Appium server started on port 64.201
+
+2022-03-30 09:59:23 - [MESSAGE][PASSED] - Started app at: 'C:\Users\isaac\Desktop\Clientes\Actuales\Everis\AbInbev\app-stagingMx-universal-release.apk'
+
+2022-03-30 09:59:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/01 - eWallet/0 - Common Steps/01 - Start Aplication/Start Application' successfully
+
+2022-03-30 09:59:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/01 - Welcome/00 - Logo Welcome"), 10): Element 'Object Repository/01 - eWallet/01 - Welcome/00 - Logo Welcome' is visible
+
+2022-03-30 09:59:25 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/01 - Welcome/00 - Logo Welcome' is visible
+
+2022-03-30 09:59:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("01 - eWallet/01 - Welcome/01 - walletLabel"), "Las finanzas de tu negocio bajo tu control"): Actual text and expected text of test object 'Object Repository/01 - eWallet/01 - Welcome/01 - walletLabel' are matched.
+
+2022-03-30 09:59:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/01 - eWallet/01 - Welcome/01 - walletLabel' are matched.
+
+2022-03-30 09:59:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/01 - Welcome/02 - imagenMujer"), 10): Element 'Object Repository/01 - eWallet/01 - Welcome/02 - imagenMujer' is visible
+
+2022-03-30 09:59:26 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/01 - Welcome/02 - imagenMujer' is visible
+
+2022-03-30 09:59:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/01 - Welcome/03 - dotOne"), 10): Element 'Object Repository/01 - eWallet/01 - Welcome/03 - dotOne' is visible
+
+2022-03-30 09:59:26 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/01 - Welcome/03 - dotOne' is visible
+
+2022-03-30 09:59:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/01 - Welcome/04 - dotTwo"), 10): Element 'Object Repository/01 - eWallet/01 - Welcome/04 - dotTwo' is visible
+
+2022-03-30 09:59:27 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/01 - Welcome/04 - dotTwo' is visible
+
+2022-03-30 09:59:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/01 - Welcome/05 - dotThree"), 10): Element 'Object Repository/01 - eWallet/01 - Welcome/05 - dotThree' is visible
+
+2022-03-30 09:59:27 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/01 - Welcome/05 - dotThree' is visible
+
+2022-03-30 09:59:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("01 - eWallet/01 - Welcome/06 - crearCuenta"), "Crear cuenta nueva"): Actual text and expected text of test object 'Object Repository/01 - eWallet/01 - Welcome/06 - crearCuenta' are matched.
+
+2022-03-30 09:59:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/01 - eWallet/01 - Welcome/06 - crearCuenta' are matched.
+
+2022-03-30 09:59:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("01 - eWallet/01 - Welcome/07 - Ya tengo cuenta Link"), "Ya tengo cuenta"): Actual text and expected text of test object 'Object Repository/01 - eWallet/01 - Welcome/07 - Ya tengo cuenta Link' are matched.
+
+2022-03-30 09:59:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/01 - eWallet/01 - Welcome/07 - Ya tengo cuenta Link' are matched.
+
+2022-03-30 09:59:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/01 - Welcome/08 - leftArrow"), 10): Element 'Object Repository/01 - eWallet/01 - Welcome/08 - leftArrow' is visible
+
+2022-03-30 09:59:28 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/01 - Welcome/08 - leftArrow' is visible
+
+2022-03-30 09:59:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/01 - Welcome/09 - rightArrow"), 10): Element 'Object Repository/01 - eWallet/01 - Welcome/09 - rightArrow' is visible
+
+2022-03-30 09:59:29 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/01 - Welcome/09 - rightArrow' is visible
+
+2022-03-30 09:59:29 - [TEST_STEP][PASSED] - tap(findTestObject("01 - eWallet/01 - Welcome/09 - rightArrow"), 10): Tapped on element 'Object Repository/01 - eWallet/01 - Welcome/09 - rightArrow'
+
+2022-03-30 09:59:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/01 - eWallet/01 - Welcome/09 - rightArrow'
+
+2022-03-30 09:59:29 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2022-03-30 09:59:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-30 09:59:31 - [TEST_STEP][PASSED] - tap(findTestObject("01 - eWallet/01 - Welcome/09 - rightArrow"), 10): Tapped on element 'Object Repository/01 - eWallet/01 - Welcome/09 - rightArrow'
+
+2022-03-30 09:59:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/01 - eWallet/01 - Welcome/09 - rightArrow'
+
+2022-03-30 09:59:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("01 - eWallet/01 - Welcome/10 - segundaImagen"), 10): Element 'Object Repository/01 - eWallet/01 - Welcome/10 - segundaImagen' is visible
+
+2022-03-30 09:59:33 - [MESSAGE][PASSED] - Element 'Object Repository/01 - eWallet/01 - Welcome/10 - segundaImagen' is visible
+
+2022-03-30 09:59:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("01 - eWallet/01 - Welcome/11 - segundaLeyenda"), "Recargas telefónicas y pago de servicios disponibles para ti y tus clientes"): Actual text and expected text of test object 'Object Repository/01 - eWallet/01 - Welcome/11 - segundaLeyenda' are matched.
+
+2022-03-30 09:59:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/01 - eWallet/01 - Welcome/11 - segundaLeyenda' are matched.
+
+2022-03-30 09:59:33 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-03-30 09:59:36 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-30 09:58:27 - [TEST_SUITE][PASSED] - JIRA Test Cases: Test Cases/JIRA Test Cases/FEW-1571 1.01 - Welcome - Verify that Look and Feel follows UX design - Screen 1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

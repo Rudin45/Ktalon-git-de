@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20220215_170937</name>
+   <tag></tag>
+   <displayName>20220215_170937</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220215_170937/01 - Test Suites/03 - Regression/00 - Cosmetic Verification Login/20220215_170938</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>samsung SM-G998B (Android 12)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>R5CR12G69LZ</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220215_170937/01 - Test Suites/03 - Regression/01 - Login and Logout/20220215_170941</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>samsung SM-G998B (Android 12)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>R5CR12G69LZ</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220215_170937/01 - Test Suites/03 - Regression/02 - CashIn/20220215_170945</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>samsung SM-G998B (Android 12)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>R5CR12G69LZ</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220215_170937/01 - Test Suites/03 - Regression/03 - CashOut/20220215_170950</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>samsung SM-G998B (Android 12)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>R5CR12G69LZ</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/02 - Collections/03 - Regression/Regression Test</testSuiteCollectionId>
+</ReportCollectionEntity>
