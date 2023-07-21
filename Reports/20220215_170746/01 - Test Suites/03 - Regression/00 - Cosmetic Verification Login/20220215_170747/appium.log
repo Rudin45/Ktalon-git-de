@@ -1,0 +1,1017 @@
+[35m[Appium][39m Welcome to Appium v1.21.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 51611
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\isaac\AppData\Local\Temp\\Katalon\Appium\Temp1644955701792
+[35m[Appium][39m   chromedriverPort: 50175
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 50175
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:51611
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m17 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\isaac\\Desktop\\Clientes\\Actuales\\Everis\\AbInbev\\app-stagingMx-universal-release.apk","noReset":true,"deviceName":"samsung SM-G998B (Android 12)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"12","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"R5CR12G69LZ","systemPort":51610},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\isaac\\Desktop\\Clientes\\Actuales\\Everis\\AbInbev\\app-stagingMx-universal-release.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-G998B (Android 12)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"12","appium:systemPort":51610,"appium:udid":"R5CR12G69LZ"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.21.0 creating new AndroidUiautomator2Driver (v1.65.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 20c3e3d2-782a-4a47-b50d-b2ba9f623e43
+[35m[BaseDriver][39m Using local app 'C:\Users\isaac\Desktop\Clientes\Actuales\Everis\AbInbev\app-stagingMx-universal-release.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\isaac\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/isaac/.katalon/tools/android_sdk/build-tools/29.0.2
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\isaac\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: R5CR12G69LZ
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\isaac\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'sihay.wallet.mx.staging'
+[35m[ADB][39m Main activity name: 'sihay.wallet.MainActivity'
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\isaac\.katalon\tools\android_sdk\build-tools\29.0.2\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\isaac\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.21.1.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\isaac\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m 'C:\Users\isaac\Desktop\Clientes\Actuales\Everis\AbInbev\app-stagingMx-universal-release.apk' is signed with a non-default certificate
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.21.1
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\isaac\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.21.1.apk' and test from 'C:\Users\isaac\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'sihay.wallet.mx.staging/sihay.wallet.MainActivity and waiting for 'sihay.wallet.mx.staging/sihay.wallet.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 20c3e3d2-782a-4a47-b50d-b2ba9f623e43 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m16535 ms - 1357[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43 [39m[32m200[39m [90m18 ms - 1311[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43 [39m[32m200[39m [90m18 ms - 1311[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/screenshot [39m[32m200[39m [90m463 ms - 766240[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect [39m[32m200[39m [90m28 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/appium/device/system_bars [39m[32m200[39m [90m119 ms - 145[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect [39m[32m200[39m [90m17 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.ViewGroup\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m162 ms - 1803[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/c5d77dc2-0d54-4163-92de-dfb6ab4de583/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (20c3e3d2)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 5b2b03d7-c150-4ba1-b86e-9cf31194e947 with 20c3e3d2-782a-4a47-b50d-b2ba9f623e43
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/c5d77dc2-0d54-4163-92de-dfb6ab4de583/location [39m[32m200[39m [90m26 ms - 75[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/c5d77dc2-0d54-4163-92de-dfb6ab4de583/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/c5d77dc2-0d54-4163-92de-dfb6ab4de583/displayed [39m[32m200[39m [90m37 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect [39m[32m200[39m [90m23 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Las finanzas de tu negocio bajo tu control\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m64 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/ccb99ce1-5447-4ad5-be56-b24db9da738c/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (20c3e3d2)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 5b2b03d7-c150-4ba1-b86e-9cf31194e947 with 20c3e3d2-782a-4a47-b50d-b2ba9f623e43
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/ccb99ce1-5447-4ad5-be56-b24db9da738c/location [39m[32m200[39m [90m32 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/ccb99ce1-5447-4ad5-be56-b24db9da738c/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (20c3e3d2)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 5b2b03d7-c150-4ba1-b86e-9cf31194e947 with 20c3e3d2-782a-4a47-b50d-b2ba9f623e43
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/ccb99ce1-5447-4ad5-be56-b24db9da738c/text [39m[32m200[39m [90m29 ms - 105[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect [39m[32m200[39m [90m24 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m64 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/6a9958b5-3bec-4e71-9a8c-a3d766ca5eda/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (20c3e3d2)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 5b2b03d7-c150-4ba1-b86e-9cf31194e947 with 20c3e3d2-782a-4a47-b50d-b2ba9f623e43
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/6a9958b5-3bec-4e71-9a8c-a3d766ca5eda/location [39m[32m200[39m [90m27 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/6a9958b5-3bec-4e71-9a8c-a3d766ca5eda/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/6a9958b5-3bec-4e71-9a8c-a3d766ca5eda/displayed [39m[32m200[39m [90m39 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect [39m[32m200[39m [90m15 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.ViewGroup\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m151 ms - 1803[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/a4a29b82-6eb6-4523-be56-144e3435d9ce/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (20c3e3d2)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 5b2b03d7-c150-4ba1-b86e-9cf31194e947 with 20c3e3d2-782a-4a47-b50d-b2ba9f623e43
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/a4a29b82-6eb6-4523-be56-144e3435d9ce/location [39m[32m200[39m [90m24 ms - 75[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/a4a29b82-6eb6-4523-be56-144e3435d9ce/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/a4a29b82-6eb6-4523-be56-144e3435d9ce/displayed [39m[32m200[39m [90m37 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect [39m[32m200[39m [90m29 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.ViewGroup\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m141 ms - 1803[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/cd3a19fa-e41b-4fef-9139-d219ee243740/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (20c3e3d2)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 5b2b03d7-c150-4ba1-b86e-9cf31194e947 with 20c3e3d2-782a-4a47-b50d-b2ba9f623e43
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/cd3a19fa-e41b-4fef-9139-d219ee243740/location [39m[32m200[39m [90m26 ms - 75[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/cd3a19fa-e41b-4fef-9139-d219ee243740/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/cd3a19fa-e41b-4fef-9139-d219ee243740/displayed [39m[32m200[39m [90m36 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect [39m[32m200[39m [90m22 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.ViewGroup\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m109 ms - 1803[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/17492055-14dc-49d4-b31a-71f151971b80/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (20c3e3d2)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 5b2b03d7-c150-4ba1-b86e-9cf31194e947 with 20c3e3d2-782a-4a47-b50d-b2ba9f623e43
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/17492055-14dc-49d4-b31a-71f151971b80/location [39m[32m200[39m [90m20 ms - 75[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/17492055-14dc-49d4-b31a-71f151971b80/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/17492055-14dc-49d4-b31a-71f151971b80/displayed [39m[32m200[39m [90m19 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect [39m[32m200[39m [90m20 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Crear cuenta nueva\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m57 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/53b21b6d-f5a9-45ab-a186-d723f3e0c3b3/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (20c3e3d2)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 5b2b03d7-c150-4ba1-b86e-9cf31194e947 with 20c3e3d2-782a-4a47-b50d-b2ba9f623e43
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/53b21b6d-f5a9-45ab-a186-d723f3e0c3b3/location [39m[32m200[39m [90m51 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/53b21b6d-f5a9-45ab-a186-d723f3e0c3b3/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (20c3e3d2)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 5b2b03d7-c150-4ba1-b86e-9cf31194e947 with 20c3e3d2-782a-4a47-b50d-b2ba9f623e43
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/53b21b6d-f5a9-45ab-a186-d723f3e0c3b3/text [39m[32m200[39m [90m39 ms - 81[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect [39m[32m200[39m [90m26 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Ya tengo cuenta\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m68 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/81021e49-a9a7-4975-bb04-8b568b26d88e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (20c3e3d2)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 5b2b03d7-c150-4ba1-b86e-9cf31194e947 with 20c3e3d2-782a-4a47-b50d-b2ba9f623e43
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/81021e49-a9a7-4975-bb04-8b568b26d88e/location [39m[32m200[39m [90m29 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/81021e49-a9a7-4975-bb04-8b568b26d88e/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (20c3e3d2)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 5b2b03d7-c150-4ba1-b86e-9cf31194e947 with 20c3e3d2-782a-4a47-b50d-b2ba9f623e43
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/81021e49-a9a7-4975-bb04-8b568b26d88e/text [39m[32m200[39m [90m23 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect [39m[32m200[39m [90m19 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m61 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/ce99a3fb-d2a9-461b-a3d7-83e8d22663c3/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (20c3e3d2)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 5b2b03d7-c150-4ba1-b86e-9cf31194e947 with 20c3e3d2-782a-4a47-b50d-b2ba9f623e43
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/ce99a3fb-d2a9-461b-a3d7-83e8d22663c3/location [39m[32m200[39m [90m28 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/ce99a3fb-d2a9-461b-a3d7-83e8d22663c3/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/ce99a3fb-d2a9-461b-a3d7-83e8d22663c3/displayed [39m[32m200[39m [90m23 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect [39m[32m200[39m [90m21 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m64 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/47109883-cd62-473c-bbea-0db81ec8fcaf/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (20c3e3d2)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 5b2b03d7-c150-4ba1-b86e-9cf31194e947 with 20c3e3d2-782a-4a47-b50d-b2ba9f623e43
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/47109883-cd62-473c-bbea-0db81ec8fcaf/location [39m[32m200[39m [90m27 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/47109883-cd62-473c-bbea-0db81ec8fcaf/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/47109883-cd62-473c-bbea-0db81ec8fcaf/displayed [39m[32m200[39m [90m27 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect [39m[32m200[39m [90m23 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m60 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/36539fd5-9aab-4e1d-b95e-3cf8c6dc40c5/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (20c3e3d2)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 5b2b03d7-c150-4ba1-b86e-9cf31194e947 with 20c3e3d2-782a-4a47-b50d-b2ba9f623e43
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/36539fd5-9aab-4e1d-b95e-3cf8c6dc40c5/location [39m[32m200[39m [90m31 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"36539fd5-9aab-4e1d-b95e-3cf8c6dc40c5"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 36539fd5-9aab-4e1d-b95e-3cf8c6dc40c5
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/touch/perform [39m[32m200[39m [90m205 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect [39m[32m200[39m [90m17 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m56 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/dece28d4-dbf7-43f9-a14e-91b61814efa2/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (20c3e3d2)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 5b2b03d7-c150-4ba1-b86e-9cf31194e947 with 20c3e3d2-782a-4a47-b50d-b2ba9f623e43
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/dece28d4-dbf7-43f9-a14e-91b61814efa2/location [39m[32m200[39m [90m16 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"dece28d4-dbf7-43f9-a14e-91b61814efa2"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: dece28d4-dbf7-43f9-a14e-91b61814efa2
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/touch/perform [39m[32m200[39m [90m167 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect [39m[32m200[39m [90m14 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m554 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/52cc46dd-655d-4a79-95d1-dc72ae6a8c76/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (20c3e3d2)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"5b2b03d7-c150-4ba1-b86e-9cf31194e947","value":{"error":"stale element reference","message":"Cached elements 'By.AndroidUiAutomator: new UiSelector().className(\"android.widget.ImageView\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)' do not exist in DOM anymore","stacktrace":"io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: Cached elements 'By.AndroidUiAutomator: new UiSelector().className(\"android.widget.ImageView\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)' do not exist in DOM anymore\n\tat io.appium.uiautomator2.model.ElementsCache.restore(ElementsCache.java:71)\n\tat io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:139)\n\tat io.appium.ui...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/element/52cc46dd-655d-4a79-95d1-dc72ae6a8c76/location [39m[33m404[39m [90m11540 ms - 4437[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not collecting web view details. Details collection might help to make Chromedriver initialization more precise. Use the 'enableWebviewDetailsCollection' cap to turn it on
+[35m[AndroidDriver][39m Skipping the webview 'WEBVIEW_Terrace' at '@Terrace_devtools_remote' since it has reported having zero pages
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/contexts [39m[32m200[39m [90m619 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/screenshot [39m[32m200[39m [90m1229 ms - 2834418[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/window/rect [39m[32m200[39m [90m22 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m59 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m59 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m53 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m59 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m67 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m591 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m67 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m601 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m96 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m113 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m67 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m59 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m631 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m76 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m53 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m54 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m69 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m76 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m629 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m70 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m78 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m631 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m606 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m78 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m74 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m80 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m59 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m67 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m73 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m73 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m76 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m73 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m80 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m59 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m618 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m69 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m581 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m601 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m70 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m76 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m74 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m76 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m80 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m618 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m105 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m618 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m94 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m96 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m76 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m80 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m73 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m70 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m67 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m54 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m641 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m577 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m598 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Recargas telefónicas y pago de servicios disponibles para ti y tus clientes\").packageName(\"sihay.wallet.mx.staging\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/20c3e3d2-782a-4a47-b50d-b2ba9f623e43/elements [39m[32m-[39m [90m- ms - -[39m
+[35m[HTTP][39m [90m[39m
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session '20c3e3d2-782a-4a47-b50d-b2ba9f623e43' from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
